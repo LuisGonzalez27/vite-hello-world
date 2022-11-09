@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(255, 202, 63);
+  background: radial-gradient(circle, rgba(255, 202, 63, 1) 4%, rgba(111, 154, 251, 1) 26%, rgba(151, 105, 249, 1) 75%);
+}

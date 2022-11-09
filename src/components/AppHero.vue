@@ -20,8 +20,8 @@ export default {
 <style lang="css">
 .jumbotron {
     width: 100%;
-    height: 80vh;
-    background-image: url(./images/vite.jpg);
+    height: calc(100vh - 100px);
+    background-image: url(./images/logo.png);
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -34,6 +34,7 @@ export default {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 50px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
 }
 </style>
